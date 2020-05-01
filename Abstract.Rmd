@@ -1,0 +1,18 @@
+---
+bibliography: /Users/mdozmorov/Documents/Work/presentations/Templates/manuscript_template/references/references_MD.bib
+csl: /Users/mdozmorov/Documents/Work/presentations/Templates/grant_template/styles.ref/genomebiology.csl
+output:
+  pdf_document: default
+  word_document:
+    reference_docx: /Users/mdozmorov/Documents/Work/presentations/Templates/grant_template/styles.doc/NSF_grant_style.docx
+---
+
+# [TADCompare: Differential and Temporal Analysis of Boundaries of Topologically Associated Domains and Loops](https://doi.org/10.3389/fgene.2020.00158)
+
+Mikhail Dozmorov, mdozmorov@vcu.edu, United States, Virginia Commonwealth University
+Kellen Cresswell, cresswellkg@mymail.vcu.edu, United States, Virginia Commonwealth University
+
+**Keywords:** Hi-C, chromosome conformation capture, topologically associated domains, TADs, differential analysis, TADCompare
+
+Recent research using chromatin conformation capture technologies, such as Hi-C, has demonstrated the importance of topologically associated domains (TADs) and smaller chromatin loops, collectively referred hereafter as "interacting domains". Many such domains change during development or disease, and exhibit cell- and condition-specific differences. Quantification of the dynamic behavior of interacting domains will help to better understand genome regulation. Methods for comparing interacting domains between cells and conditions are highly limited. We developed TADCompare, a method for differential analysis of boundaries of interacting domains between two or more Hi-C datasets. TADCompare is based on a spectral clustering-derived measure called the eigenvector gap, which enables a loci-by-loci comparison of boundary differences. Using this measure, we introduce methods for identifying differential and consensus boundaries of interacting domains and tracking boundary changes over time. We further propose a novel framework for the systematic classification of boundary changes. Colocalization- and gene enrichment analysis of different types of boundary changes demonstrated distinct biological functionality associated with them. TADCompare is available on https://github.com/dozmorovlab/TADCompare and Bioconductor (submitted).
+
